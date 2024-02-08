@@ -1,0 +1,46 @@
+.outer-containe-error {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.error-error {
+    color: #ff0000; /* Red color for error */
+}
+
+p {
+    font-size: 18px;
+}
+
+.error-box-error {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 400px;
+}
+
+/* Custom styling for the "Go Back" button */
+.go-back-button-error {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.go-back-button-error:hover {
+    background-color: #0056b3;
+    border-radius: 20px;
+}
